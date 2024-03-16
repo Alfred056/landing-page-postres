@@ -10,7 +10,7 @@
 
 .cuerpo{
     background: linear-gradient(rgb(239, 196, 174) 10%, rgb(228, 174, 239));
-    height: 660px;
+    height: 600px;
     
 }
 
@@ -26,8 +26,70 @@
 
 h1{
     text-align: center;
+    padding-top: 20px;
+}
+
+p{
+    font-weight: 650;
+    font-size:300%;
 }
 
 .mensaje{
     font-size: medium;
+}
+
+.titulo{
+    height: 500px;
+    color: rgb(90, 50, 50);
+}
+
+.boton{
+    padding-top: 20px;
+}
+
+
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.deli{
+    background-color: rgb(90, 50, 50);
+    color: rgb(240, 229, 224);
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    text-decoration-line: none;
+}
+
+.carta{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(237, 219, 219);
+}
+
+.carta-interior{
+    /*background-color: rgb(244, 209, 165);*/
+    border-radius: 10px;
+    
+}
+
+.card-custom{
+    color: rgb(90, 50, 50);
+    font-weight: 500;
+}
+
+
+.margen{
+    height: 30px;
+    background-color: aliceblue;
+}
+
+footer{
+    background: linear-gradient(rgb(239, 196, 174) 10%, rgb(228, 174, 239));
+    color: rgb(90, 50, 50);
 }
