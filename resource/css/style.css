@@ -1,8 +1,33 @@
 .naveg{
     padding-top: 20px;
+    color:rgb(90, 50, 50);
+    font-weight: 600;
+    
+}
+.lista{
+    text-align: center;
 }
 
 .cuerpo{
-    background: linear-gradient(rgb(46, 7, 40), rgb(167, 113, 159));
+    background: linear-gradient(rgb(239, 196, 174) 10%, rgb(228, 174, 239));
     height: 660px;
+    
+}
+
+.formulario{
+    text-align: end;
+}
+.content{
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 50vh; /* Altura del viewport */
+}
+
+h1{
+    text-align: center;
+}
+
+.mensaje{
+    font-size: medium;
 }
