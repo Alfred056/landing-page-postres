@@ -93,3 +93,17 @@ footer{
     background: linear-gradient(rgb(239, 196, 174) 10%, rgb(228, 174, 239));
     color: rgb(90, 50, 50);
 }
+
+.reservacion{
+    background-image: url("../img/fondo.jpg");
+
+}
+
+.fondo-formulario{
+    background-color: rgb(245, 235, 219, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    color: rgb(90, 50, 50);
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
