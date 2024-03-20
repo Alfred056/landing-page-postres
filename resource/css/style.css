@@ -67,6 +67,7 @@ button:hover{
 }
 
 .carta{
+    color: rgb(90, 50, 50);
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: rgb(237, 219, 219);
@@ -84,9 +85,9 @@ button:hover{
 }
 
 
-.margen{
-    height: 30px;
-    background-color: aliceblue;
+.mapa{
+    padding: 40px;
+    background-color: rgb(245, 235, 219, 0.9);
 }
 
 footer{
@@ -101,9 +102,25 @@ footer{
 
 .fondo-formulario{
     background-color: rgb(245, 235, 219, 0.9);
+
     padding: 40px;
     border-radius: 10px;
     color: rgb(90, 50, 50);
     margin-top: 150px;
     margin-bottom: 150px;
+}
+
+mapa-google
+#mapa-google {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+}
+
+/* Media query para pantallas de hasta 768px (típicamente tablets y celulares) */
+@media (max-width: 768px) {
+    #mapa-google {
+        width: 150px;
+        height: 150px;
+    }
 }

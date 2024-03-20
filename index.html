@@ -70,6 +70,7 @@
           </div>
         </div>
       </header>
+
       <div class='titulo container d-flex justify-content-center align-items-center'>
         <div class="d-flex flex-column text-center">
           <h1>Bienvenidos a</h1>
@@ -134,58 +135,52 @@
             </div>
           </div>
         </div>
-        
-        <div class="row">
-          <div class="col-sm-3 p-0">
-            <img src="./resource/img/postre-choco.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="col-sm-3 p-0">
-            <img src="./resource/img/Fresa.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="col-sm-3 p-0">
-            <img src="./resource/img/Fresa.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="col-sm-3 p-0">
-            <img src="./resource/img/Fresa.jpg" class="card-img-top" alt="...">
-          </div>
-        </div>
-
-    </div>
-    
+      </div>
   </div>
 
-  <div class="margen">
+  <div class="mapa">
+    <div class="container">
+      <div class="row">
+        <div class="col" style="text-align: right;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6560.374195873461!2d-77.03388442563993!3d-12.124339707278828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8193357d783%3A0x82217023126374f8!2sAvenida%20Alfredo%20Benavides!5e0!3m2!1ses-419!2spe!4v1710975351221!5m2!1ses-419!2spe" width="300px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+          <div class="col text-center">
+          <h1 style="color: rgb(90, 50, 50);">Donde encontrarnos?</h1>
+          <a>Estamos ubicados en Av. Los lirios 489 en el distrito de Surco</a>
+        </div>
+      </div>
 
+    </div>
   </div>
 
   <div class="reservacion container-fluid">
       <div class="container text center">
         <div class="row" id="scrollspyHeading4">
           <div class="col-md-6 offset-md-3">
-            <form class="fondo-formulario">
+            <form class="fondo-formulario shadow rounded">
               <h2 style="padding-bottom: 30px; text-align: center;">Realize su reservacion aqui</h2>
               <div class="row">
                 <div class="col">
                   <label>Nombres: </label>
-                  <input type="text" class="form-control" placeholder="Nombres" aria-label="Nombre">
+                  <input type="text" class="form-control" placeholder="Nombres" aria-label="Nombre" id="nombre">
                 </div>
                 <div class="col">
                   <label>Apellidos: </label>
-                  <input type="text" class="form-control" placeholder="Apellidos" aria-label="Apellido">
+                  <input type="text" class="form-control" placeholder="Apellidos" aria-label="Apellido" id="apellido">
                 </div>
               </div>
               <div class="mb-3" style="padding-top: 10px;">
                 <label>Correo electronico: </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
               </div>
               <div class="row">
                 <div class="col">
                   <label>Numero de telefono: </label>
-                  <input type="text" class="form-control" placeholder="" aria-label="Numero">
+                  <input type="text" class="form-control" placeholder="" aria-label="Numero" id="numero">
                 </div>
                 <div class="col">
                   <label>Fecha de la reservacion: </label>
-                  <input type="text" class="form-control" placeholder="" aria-label="reserv">
+                  <input type="text" class="form-control" placeholder="DD/MM/AA" aria-label="reserv" id="fecha">
                 </div>
               </div>
               <div class="mb-3 form-check">
